@@ -1,0 +1,16 @@
+{
+  "name": "cache-poisoning-detector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Web cache poisoning detector: finds unkeyed inputs and safely verifies exploitability against an isolated cache keyspace",
+  "scripts": {
+    "demo": "node demo/start.ts",
+    "scan": "node src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
